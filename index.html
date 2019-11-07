@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+  <body>
+    <form action="index.html" method="post">
+    <div id="Partie1">
+    <h1>Votre identité</h1>
+      <label for="name">1) Nom :</label>
+      <input type="text" name="name" value="nom"><br/>
+      <label for="firstName">2) Prénom :</label>
+      <input type="text" name="firstName" value="Prénom"><br/>
+      <label for="mail">3) Adresse mail</label>
+      <input type="text" name="mail" value="Adresse mail"><br/>
+    </div>
+    <div id="Partie2">
+    <h2>Adresse de livraison</h2>
+      <label for="adress">1) Adresse :</label>
+      <input type="textarea" name="adress" value="Adresse"><br/>
+      <label for="PostalCode">2) Code postal :</label>
+      <input type="text" name="PostalCode" value="Code postal"><br/>
+      <label for="City">3) Ville :</label>
+      <input type="text" name="City" value="Ville">
+    </div>
+    <div id="Partie3">
+    <h3>Informations de réglement</h3>
+      <label for="Paycart">1) Carte de paiement :</label>
+        <p id="Paycart"><label>Visa :</label>
+        <input type="radio" name="Paycart" value="Visa"><br/>
+        <p id="Paycart"><label>Mastercard :</label>
+        <input type="radio" name="Paycart" value="Mastercard"><br/>
+      <label for="CartNumber">2) Numéro de carte :</label>
+      <input type="text" name="CartNumber" value="Numéro de carte"><br/>
+      <label for="SecurityCode">3) Code de sécurité :</label>
+      <input type="text" name="SecurityCode" value="Code de sécurité"><br/>
+      <label for="NameCart">4) Nom du titulaire :</label>
+      <input type="text" name="NameCart" value="Nom du titulaire">
+    </div>
+      <input type="submit" value="J'achète !"/>
+    </form>
+  </body>
+</html>
